@@ -1,0 +1,11 @@
+import re
+
+# re.findall: Returns a list containing all matches
+# re.search: Returns a Match object if there is a match anywhere in the stringing
+# re.split: Returns a list where the stringing has been split at each match
+# re.sub: Replaces one or many matches with a stringing
+# re.match(): searches beginning of 1st line
+
+string = "ssdfdsfsix32sdjfseven"
+match=re.search(r'six|seven',string)
+print(match)
